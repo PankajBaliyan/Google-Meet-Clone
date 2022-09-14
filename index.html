@@ -18,14 +18,18 @@
             <a href="#" class="flex w-40">
                 <img src="./images/logo.svg" alt="logo" class="cursor-pointer">
             </a>
-            <nav
+            <nav aria-label="navigational links"
                 class="md:ml-auto md:mr-auto md:flex md:flex-wrap md:items-center md:text-base md:justify-center hidden">
-                <a href="#" class="mr-10 cursor-pointer hover:text-gray-900">Solutions</a>
-                <a href="#" class="mr-10 cursor-pointer hover:text-gray-900">Plans & Pricing</a>
-                <a href="#" class="mr-10 cursor-pointer hover:text-gray-900">Contact Sales</a>
-                <a href="#" class="mr-10 cursor-pointer hover:text-gray-900">Resources</a>
+                
+                <a href="https://workspace.google.com/intl/en_in/?utm_source=google&utm_medium=cpc&utm_campaign=1011352-Workspace-APAC-IN-en-BKWS-EXA-HV&utm_content=text-ad-none-none-DEV_c-CRE_608344336739-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+G+Suite_1-KWID_43700071931903936-kwd-35154496839&userloc_9302611-network_g&utm_term=KW_google%20suits&gclid=Cj0KCQjw94WZBhDtARIsAKxWG--hDQkZ4ujQiyJjaOAGwqlzkbz8arPgJzMwgXBnBm0dbhqm3r1FIqQaAoLQEALw_wcB&gclsrc=aw.ds" class="mr-10 cursor-pointer hover:text-gray-900">Solutions</a>
+
+                <a href="https://workspace.google.com/intl/en_in/pricing.html" target="_blank" class="mr-10 cursor-pointer hover:text-gray-900">Plans & Pricing</a>
+                
+                <a href="https://workspace.google.com/intl/en_in/contact-form/?source=gafb-pricing-enterprise-en-IN" target="_blank" class="mr-10 cursor-pointer hover:text-gray-900">Contact Sales</a>
+                
+                <a href="https://workspace.google.com/intl/en_in/training/" class="mr-10 cursor-pointer hover:text-gray-900">Resources</a>
             </nav>
-            <button
+            <button id="header_join_btn"
                 class="md:inline-flex md:items-center md:bg-white md:text-blue-600 md:border md:border-gray-300 md:py-2 md:px-4 md:mx-2 md:focus:outline-none md:hover:bg-white md:hover:border md:hover:border-blue-600 md:rounded md:text-base md:mt-4 md:mt-0 hidden">Join
                 a meeting</button>
             <button
@@ -54,17 +58,17 @@
                         Start a meeting
                     </button>
 
-                    <input type="text"
+                    <input type="text" id="join_meeting_input"
                         class="md:ml-2 pl-5 inline-flex font-normal placeholder:text-gray-500 bg-white border border-gray-300 py-2 px-2 outline-gray-500 rounded text-lg relative"
                         placeholder="Enter a meeting code">
 
                     <p class="md:ml-4 mt-2.5 text-gray-500 font-semibold cursor-pointer text-[17px]">Join</p>
                 </div>
 
-                <p class="mt-10 font-medium">
+                <a href="https://support.google.com/accounts/answer/27441?hl=en" class="mt-10 font-medium">
                     Don't have an account?
                     <span class="text-blue-500 cursor-pointer">Get Started Now</span>
-                </p>
+                </a>
             </div>
             <div class="md:max-w-lg md:w-full md:w-1/2 w-5/6">
                 <img src="./images/image1.png" alt="first image" class="object-cover object-center rounded">
@@ -89,9 +93,9 @@
                     continuously updated for added protection.
                 </p>
                 <div class="flex justify-center">
-                    <p class="text-blue-600 font-semibold cursor-pointer">
+                    <a href="https://support.google.com/a/answer/7582940?hl=en" class="text-blue-600 font-semibold cursor-pointer">
                         Learn more about security and compliance
-                    </p>
+                    </a>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -113,9 +117,9 @@
                     chemistry assignments, or just catch up face to face. <br /><br /> Businesses, schools, and other
                     organizations can live stream meetings to 100,000 viewers within their domain.
                 </p>
-                <div class="flex justify-center">
+                <a href="https://workspace.google.com/intl/en_in/pricing.html" class="flex justify-center">
                     <p class="text-blue-600 font-semibold cursor-pointer">See plans and pricing for organization</p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -132,9 +136,9 @@
                     browser—no software to install. On mobile devices, they can join from the Google Meet app. Guests
                     can even join meetings from Google Nest Hub Max.
                 </p>
-                <div class="flex justify-center">
+                <a href="https://edu.google.com/chromebooks/overview/" class="flex justify-center">
                     <p class="text-blue-600 font-semibold cursor-pointer">Enable hybrid work with Chrome OS devices</p>
-                </div>
+                </a>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                 <img src="./images/image4.png" alt="fourth image" class="object-cover object-center rounded">
@@ -172,9 +176,9 @@
                     accessible. For non-native speakers, hearing impaired participants, or just noisy ee shops, live
                     captions make it easy for everyone to follow along (available in English only).
                 </p>
-                <div class="flex justify-center">
+                <a href="https://support.google.com/meet/answer/7313544?hl=en" class="flex justify-center">
                     <p class="text-blue-600 font-semibold cursor-pointer">Learn more about accessibility features</p>
-                </div>
+                </>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                 <img src="./images/image6.png" alt="sixth image" class=" object-cover object-center rounded">
@@ -189,16 +193,21 @@
                 <img src="./images/logo.svg" alt="footer logo" class="cursor-pointer">
             </a>
             <nav class="md:mx-10 md:mt-0.5 mx-10 mt-4 flex flex-wrap items-center text-base justify-center">
-                <a href="#" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">About
+
+                <a href="https://about.google/" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">About
                     Google</a>
-                <a href="#" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">Google
-                    Products</a>
-                <a href="#"
-                    class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">Privacy</a>
-                <a href="#" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">Terms</a>
+                
+                <a href="https://about.google/products/" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">Google Products</a>
+
+                <a href="https://policies.google.com/privacy?hl=en" target="_blank" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">Privacy</a>
+
+                <a href="https://policies.google.com/terms?hl=en" target="_blank" class="md:mr-5 mr-3 text-gray-500 font-medium cursor-pointer hover:text-gray-600">Terms</a>
+
             </nav>
         </div>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
