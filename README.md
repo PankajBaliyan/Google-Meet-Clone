@@ -10,7 +10,7 @@ In this project, I have created Responsive Google Meet Clone, The project is bui
 
 ### Demo Screeshots
 
-![Responsive Google Meet Clone Desktop Demo](./readme-images/Google-Meet-Clone.png "Desktop Demo")
+![Responsive Google Meet Clone Desktop Demo](./Project-Screenshot/Google-Meet-Clone.png "Desktop Demo")
 
 ### Prerequisites
 
