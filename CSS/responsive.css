@@ -1,0 +1,71 @@
+/* MOBILE DEVICES  */
+@media (min-width:320px) and (max-width:480px) {
+    .home-text {
+        width: auto !important;
+    }
+}
+
+/* LAPTOP DEVICES  */
+@media (min-width:768px) and (max-width:1023px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .premium_meeting {
+        padding-right: 0px !important;
+        width: 100% !important;
+    }
+
+    .start_meeting {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .start_meeting>button {
+        margin-bottom: 5px;
+    }
+
+    #first-image {
+        margin-right: 0px;
+    }
+
+    .first-image-parent {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+/* DESKTOP DEVICES  */
+@media (min-width:1024px) and (max-width:1200px) {
+    .start_meeting {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .start_meeting>button {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width:1201px) {
+    .premium_meeting {
+        padding-right: 0px !important;
+    }
+
+    .start_meeting {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .start_meeting>button {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width:1300px) {
+    .start_meeting>button {
+        margin-bottom: 5px;
+    }
+}
